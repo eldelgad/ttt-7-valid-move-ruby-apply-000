@@ -15,7 +15,7 @@ def valid_move?(board, index)
 
   def on_the_board?(space)
     
-    if space.between? (0,8) == true
+    if space.between?(0,8) == true
       return true
       
     else
